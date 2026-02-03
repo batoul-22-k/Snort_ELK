@@ -237,3 +237,25 @@
 02/03-12:51:13.169258  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:43864 -> 10.10.0.30:80
 02/03-12:51:13.174715  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:43876 -> 10.10.0.30:80
 02/03-12:51:13.174715  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:43876 -> 10.10.0.30:80
+02/03-12:57:27.157718  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:38770 -> 10.10.0.30:80
+02/03-12:57:27.282913  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33776 -> 10.10.0.30:139
+02/03-12:58:26.239440  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45212 -> 10.10.0.30:80
+02/03-12:58:26.239606  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45220 -> 10.10.0.30:80
+02/03-12:58:26.239681  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45244 -> 10.10.0.30:80
+02/03-12:58:26.241397  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45264 -> 10.10.0.30:80
+02/03-12:58:26.241902  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45270 -> 10.10.0.30:80
+02/03-12:58:26.242158  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:45286 -> 10.10.0.30:80
+02/03-12:58:29.199830  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2650 -> 10.10.0.30:80
+02/03-12:58:32.492192  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1435 -> 10.10.0.30:80
+02/03-12:58:33.491988  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1436 -> 10.10.0.30:80
+02/03-12:58:34.492127  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1437 -> 10.10.0.30:80
+02/03-12:58:35.492277  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1438 -> 10.10.0.30:80
+02/03-12:58:36.492397  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1439 -> 10.10.0.30:80
+02/03-12:58:45.597891  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36866 -> 10.10.0.30:80
+02/03-12:58:45.600834  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36874 -> 10.10.0.30:80
+02/03-12:58:48.414718  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36884 -> 10.10.0.30:80
+02/03-12:58:48.419346  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36892 -> 10.10.0.30:80
+02/03-12:58:48.423767  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36906 -> 10.10.0.30:80
+02/03-12:58:48.428219  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36922 -> 10.10.0.30:80
+02/03-12:58:48.432535  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36932 -> 10.10.0.30:80
+02/03-12:58:48.432535  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36932 -> 10.10.0.30:80
