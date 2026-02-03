@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update  && apt-get install -y --no-install-recommends debconf-utils ca-certificates wget gnupg  && echo "snort snort/interface string eth0" | debconf-set-selections  && echo "snort snort/address_range string 10.10.0.30/32" | debconf-set-selections  && apt-get install -y --no-install-recommends snort snort-rules-default iproute2 tcpdump  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update  && apt-get install -y --no-install-recommends debconf-utils ca-certificates wget gnupg  && echo "snort snort/interface string eth0" | debconf-set-selections  && echo "snort snort/address_range string 172.30.0.30/32" | debconf-set-selections  && apt-get install -y --no-install-recommends snort snort-rules-default iproute2 tcpdump  && rm -rf /var/lib/apt/lists/*
 
 COPY snort.conf /etc/snort/snort.conf
 COPY classification.config /etc/snort/classification.config
