@@ -48,3 +48,17 @@
 ## 8. Conclusion
 - Summary of findings
 - Future improvements (Snort 3, Suricata, Zeek, TLS inspection)
+
+
+## Troubleshooting Missing Fields in Kibana
+If Discover shows only `_grokparsefailure` or fields like `signature` are missing:
+1. Restart Logstash:
+`docker compose up -d --force-recreate logstash`
+2. Clear old indices:
+`docker compose exec elasticsearch sh -c "curl -s -X DELETE http://localhost:9200/snort-alerts-*"`
+3. (Optional) Reset file input state so Logstash re-reads alerts:
+`docker compose exec logstash sh -c "rm -f /usr/share/logstash/data/sincedb_snort"`
+4. Trigger a new attack:
+`docker compose exec attacker sh /attacks/tcp_xmas_scan.sh 10.10.0.30`
+5. Refresh Kibana fields:
+Stack Management -> Index Patterns -> `snort-alerts-*` -> Refresh field list
