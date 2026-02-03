@@ -28,6 +28,7 @@ Download the community rules and place them into `snort/rules/community.rules` o
 - `sh /attacks/nmap_scan.sh 10.10.0.30`
 - `sh /attacks/hping3_syn_flood.sh 10.10.0.30`
 - `sh /attacks/tcp_xmas_scan.sh 10.10.0.30`
+ - `sh /attacks/run_all.sh 10.10.0.30` (runs all attacks in sequence)
 
 ## Alert Commands (copy/paste)
 Network scanning
@@ -63,6 +64,10 @@ HTTP login brute-force (lab simulation)
 `docker compose exec attacker sh -c "for i in $(seq 1 5); do curl -s -o /dev/null -X POST http://10.10.0.30/login; done"`
 Expected alert
 - SID 1000007: LOCAL HTTP login brute-force
+
+## Run All Attacks (one command)
+From the host:
+`docker compose exec attacker sh /attacks/run_all.sh 10.10.0.30`
 
 ## Verify Alerts (CLI)
 1. Confirm Snort wrote alerts:
