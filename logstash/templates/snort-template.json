@@ -1,0 +1,23 @@
+{
+  "index_patterns": ["snort-alerts-*"],
+  "settings": {
+    "number_of_shards": 1,
+    "index.refresh_interval": "5s"
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": { "type": "date" },
+      "signature": { "type": "keyword" },
+      "classification": { "type": "keyword" },
+      "protocol": { "type": "keyword" },
+      "src_ip": { "type": "ip" },
+      "dest_ip": { "type": "ip" },
+      "src_port": { "type": "integer" },
+      "dest_port": { "type": "integer" },
+      "priority": { "type": "integer" },
+      "sid": { "type": "integer" },
+      "gid": { "type": "integer" },
+      "rev": { "type": "integer" }
+    }
+  }
+}

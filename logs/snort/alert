@@ -1,0 +1,180 @@
+02/03-10:39:32.007074  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33166 -> 10.10.0.30:80
+02/03-10:39:38.483993  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46522 -> 10.10.0.30:80
+02/03-10:39:38.484135  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46526 -> 10.10.0.30:80
+02/03-10:39:38.484179  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46550 -> 10.10.0.30:80
+02/03-10:39:38.485826  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46558 -> 10.10.0.30:80
+02/03-10:39:38.486305  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46572 -> 10.10.0.30:80
+02/03-10:39:38.486828  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:46578 -> 10.10.0.30:80
+02/03-10:38:24.163617  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1192 -> 10.10.0.30:80
+02/03-10:38:24.166418  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:1372 -> 10.10.0.30:80
+02/03-10:38:25.003758  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:54274 -> 10.10.0.30:80
+02/03-10:38:26.003596  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:44109 -> 10.10.0.30:80
+02/03-10:39:55.870579  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:31698 -> 10.10.0.30:80
+02/03-10:39:55.873609  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:31878 -> 10.10.0.30:80
+02/03-10:39:56.003832  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:38797 -> 10.10.0.30:80
+02/03-10:38:27.166421  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:42464 -> 10.10.0.30:80
+02/03-10:38:27.170127  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:42644 -> 10.10.0.30:80
+02/03-10:38:28.003697  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:22930 -> 10.10.0.30:80
+02/03-10:38:29.003665  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:11525 -> 10.10.0.30:80
+02/03-10:38:30.000353  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:64376 -> 10.10.0.30:80
+02/03-10:38:30.002270  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:64556 -> 10.10.0.30:80
+02/03-10:38:31.004063  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:52273 -> 10.10.0.30:80
+02/03-10:40:12.366550  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1718 -> 10.10.0.30:80
+02/03-10:40:13.366675  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1719 -> 10.10.0.30:80
+02/03-10:40:14.366800  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1720 -> 10.10.0.30:80
+02/03-10:40:15.367026  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1721 -> 10.10.0.30:80
+02/03-10:40:16.367327  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1722 -> 10.10.0.30:80
+02/03-10:39:32.422971  [**] [1:1000006:1] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:41132 -> 10.10.0.30:80
+02/03-10:39:43.561620  [**] [1:1000006:1] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:38902 -> 10.10.0.30:80
+02/03-10:41:20.329795  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:53544 -> 10.10.0.30:80
+02/03-10:41:30.554595  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36792 -> 10.10.0.30:80
+02/03-10:41:36.072824  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36794 -> 10.10.0.30:80
+02/03-10:48:52.031019  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2929 -> 10.10.0.30:80
+02/03-10:48:53.031157  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2930 -> 10.10.0.30:80
+02/03-10:48:54.032281  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2931 -> 10.10.0.30:80
+02/03-10:48:55.032427  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2932 -> 10.10.0.30:80
+02/03-10:48:56.032551  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2933 -> 10.10.0.30:80
+02/03-10:50:30.266848  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:54938 -> 10.10.0.30:80
+02/03-10:50:41.814448  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:38922 -> 10.10.0.30:80
+02/03-10:51:00.940104  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2004 -> 10.10.0.30:80
+02/03-10:51:00.946724  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:2184 -> 10.10.0.30:80
+02/03-10:51:01.003808  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:5245 -> 10.10.0.30:80
+02/03-10:51:02.003753  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:63605 -> 10.10.0.30:80
+02/03-10:51:03.000332  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:50959 -> 10.10.0.30:80
+02/03-10:51:03.003381  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:51139 -> 10.10.0.30:80
+02/03-10:52:32.171022  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1371 -> 10.10.0.30:80
+02/03-10:52:32.174213  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:1551 -> 10.10.0.30:80
+02/03-10:51:03.449163  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:9529 -> 10.10.0.30:80
+02/03-10:51:03.452475  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:9709 -> 10.10.0.30:80
+02/03-10:51:04.004067  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:39271 -> 10.10.0.30:80
+02/03-10:51:05.003642  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:27329 -> 10.10.0.30:80
+02/03-10:51:06.000334  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:13665 -> 10.10.0.30:80
+02/03-10:51:06.003264  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:13845 -> 10.10.0.30:80
+02/03-10:51:07.003727  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:1448 -> 10.10.0.30:80
+02/03-10:51:08.004196  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:54764 -> 10.10.0.30:80
+02/03-10:52:37.176936  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:5059 -> 10.10.0.30:80
+02/03-10:52:37.180091  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:5239 -> 10.10.0.30:80
+02/03-10:51:08.451291  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:13067 -> 10.10.0.30:80
+02/03-10:51:08.454605  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:13247 -> 10.10.0.30:80
+02/03-10:51:09.003722  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:42450 -> 10.10.0.30:80
+02/03-10:51:10.003979  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:29695 -> 10.10.0.30:80
+02/03-10:51:11.000355  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:16996 -> 10.10.0.30:80
+02/03-10:51:11.003380  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:17176 -> 10.10.0.30:80
+02/03-10:51:12.003693  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:4396 -> 10.10.0.30:80
+02/03-10:51:13.003573  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:57906 -> 10.10.0.30:80
+02/03-10:52:42.190644  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:8944 -> 10.10.0.30:80
+02/03-10:52:42.193597  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:9124 -> 10.10.0.30:80
+02/03-10:52:43.003643  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:52308 -> 10.10.0.30:80
+02/03-10:52:44.004002  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:40180 -> 10.10.0.30:80
+02/03-10:52:45.000357  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:27240 -> 10.10.0.30:80
+02/03-10:52:45.002992  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:27420 -> 10.10.0.30:80
+02/03-10:52:46.003713  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:15074 -> 10.10.0.30:80
+02/03-10:51:20.420336  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:35044 -> 10.10.0.30:113
+02/03-10:51:26.780339  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48058 -> 10.10.0.30:80
+02/03-10:51:26.780368  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48068 -> 10.10.0.30:80
+02/03-10:51:26.780379  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48084 -> 10.10.0.30:80
+02/03-10:51:26.782556  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48088 -> 10.10.0.30:80
+02/03-10:51:26.783013  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48090 -> 10.10.0.30:80
+02/03-10:51:26.783048  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:48100 -> 10.10.0.30:80
+02/03-10:54:00.835779  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1213 -> 10.10.0.30:80
+02/03-10:54:01.836006  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1214 -> 10.10.0.30:80
+02/03-10:54:02.836443  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1215 -> 10.10.0.30:80
+02/03-10:54:03.836664  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1216 -> 10.10.0.30:80
+02/03-10:54:04.836822  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1217 -> 10.10.0.30:80
+02/03-10:56:11.601193  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2683 -> 10.10.0.30:80
+02/03-10:56:12.601434  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2684 -> 10.10.0.30:80
+02/03-10:56:13.601562  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2685 -> 10.10.0.30:80
+02/03-10:56:14.602544  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2686 -> 10.10.0.30:80
+02/03-10:56:15.602700  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2687 -> 10.10.0.30:80
+02/03-10:58:34.368409  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2147 -> 10.10.0.30:80
+02/03-10:58:35.368604  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2148 -> 10.10.0.30:80
+02/03-10:58:36.368732  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2149 -> 10.10.0.30:80
+02/03-10:58:37.368860  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2150 -> 10.10.0.30:80
+02/03-10:58:38.369016  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2151 -> 10.10.0.30:80
+02/03-11:02:00.998291  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2160 -> 10.10.0.30:80
+02/03-11:02:01.998443  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2161 -> 10.10.0.30:80
+02/03-11:02:02.998568  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2162 -> 10.10.0.30:80
+02/03-11:02:03.998727  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2163 -> 10.10.0.30:80
+02/03-11:02:04.999924  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2164 -> 10.10.0.30:80
+02/03-11:06:40.874039  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1318 -> 10.10.0.30:80
+02/03-11:06:41.874199  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1319 -> 10.10.0.30:80
+02/03-11:06:42.874351  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1320 -> 10.10.0.30:80
+02/03-11:06:43.874512  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1321 -> 10.10.0.30:80
+02/03-11:06:44.874642  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1322 -> 10.10.0.30:80
+02/03-12:15:04.366244  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:41254 -> 10.10.0.30:80
+02/03-12:15:06.493801  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:41270 -> 10.10.0.30:80
+02/03-12:15:28.735812  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2476 -> 10.10.0.30:80
+02/03-12:15:29.736010  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2477 -> 10.10.0.30:80
+02/03-12:15:30.736300  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2478 -> 10.10.0.30:80
+02/03-12:15:31.736541  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2479 -> 10.10.0.30:80
+02/03-12:15:32.736775  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2480 -> 10.10.0.30:80
+02/03-12:17:38.803602  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1265 -> 10.10.0.30:80
+02/03-12:17:38.811294  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:1445 -> 10.10.0.30:80
+02/03-12:17:39.003373  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:12187 -> 10.10.0.30:80
+02/03-12:17:40.003655  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:3745 -> 10.10.0.30:80
+02/03-12:17:41.000363  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:57161 -> 10.10.0.30:80
+02/03-12:17:41.003462  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:57341 -> 10.10.0.30:80
+02/03-12:17:42.003742  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:45737 -> 10.10.0.30:80
+02/03-12:17:43.003713  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:33795 -> 10.10.0.30:80
+02/03-12:17:44.000362  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:21476 -> 10.10.0.30:80
+02/03-12:17:44.003342  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:21656 -> 10.10.0.30:80
+02/03-12:17:45.003841  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:9772 -> 10.10.0.30:80
+02/03-12:17:46.003707  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:63058 -> 10.10.0.30:80
+02/03-12:17:47.000363  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:50578 -> 10.10.0.30:80
+02/03-12:17:47.003487  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:50758 -> 10.10.0.30:80
+02/03-12:17:48.003776  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:38644 -> 10.10.0.30:80
+02/03-12:17:49.003733  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:26514 -> 10.10.0.30:80
+02/03-12:17:50.000351  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:14143 -> 10.10.0.30:80
+02/03-12:17:50.003415  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:14323 -> 10.10.0.30:80
+02/03-12:17:51.003756  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:1636 -> 10.10.0.30:80
+02/03-12:17:52.003644  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:54061 -> 10.10.0.30:80
+02/03-12:17:53.000363  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:41171 -> 10.10.0.30:80
+02/03-12:17:53.003419  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:41351 -> 10.10.0.30:80
+02/03-12:17:54.003613  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:29644 -> 10.10.0.30:80
+02/03-12:17:55.003655  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:18424 -> 10.10.0.30:80
+02/03-12:17:56.000354  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:6949 -> 10.10.0.30:80
+02/03-12:17:56.003480  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:7129 -> 10.10.0.30:80
+02/03-12:17:57.003720  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:61551 -> 10.10.0.30:80
+02/03-12:17:58.003865  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:49055 -> 10.10.0.30:80
+02/03-12:17:59.000365  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:36507 -> 10.10.0.30:80
+02/03-12:17:59.003387  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:36687 -> 10.10.0.30:80
+02/03-12:18:00.003899  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:24316 -> 10.10.0.30:80
+02/03-12:18:01.003692  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:12049 -> 10.10.0.30:80
+02/03-12:18:02.000365  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:65429 -> 10.10.0.30:80
+02/03-12:18:02.003449  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:73 -> 10.10.0.30:80
+02/03-12:18:03.003828  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:52452 -> 10.10.0.30:80
+02/03-12:18:04.003557  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:40413 -> 10.10.0.30:80
+02/03-12:18:05.000370  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:28246 -> 10.10.0.30:80
+02/03-12:18:05.003639  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:28426 -> 10.10.0.30:80
+02/03-12:16:36.388182  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:37940 -> 10.10.0.30:80
+02/03-12:16:36.391215  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:38120 -> 10.10.0.30:80
+02/03-12:16:37.003608  [**] [1:1000003:1] LOCAL Possible SYN flood [**] [Classification: Attempted Denial of Service] [Priority: 1] {PROTO:006} 10.10.0.20:5434 -> 10.10.0.30:80
+02/03-12:16:39.061521  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:54179 -> 10.10.0.30:135
+02/03-12:16:45.435225  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34712 -> 10.10.0.30:80
+02/03-12:16:45.435244  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34724 -> 10.10.0.30:80
+02/03-12:16:45.435251  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34736 -> 10.10.0.30:80
+02/03-12:16:45.436786  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34740 -> 10.10.0.30:80
+02/03-12:16:45.437221  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34742 -> 10.10.0.30:80
+02/03-12:16:45.437587  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:34756 -> 10.10.0.30:80
+02/03-12:16:55.562051  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:40608 -> 10.10.0.30:587
+02/03-12:17:01.919755  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33182 -> 10.10.0.30:80
+02/03-12:17:01.919791  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33198 -> 10.10.0.30:80
+02/03-12:17:01.919800  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33206 -> 10.10.0.30:80
+02/03-12:17:01.921294  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33220 -> 10.10.0.30:80
+02/03-12:17:01.921641  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33230 -> 10.10.0.30:80
+02/03-12:17:01.921666  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:33246 -> 10.10.0.30:80
+02/03-12:21:06.217545  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2009 -> 10.10.0.30:80
+02/03-12:21:07.217637  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2010 -> 10.10.0.30:80
+02/03-12:21:08.217741  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2011 -> 10.10.0.30:80
+02/03-12:21:09.216146  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2012 -> 10.10.0.30:80
+02/03-12:21:10.216252  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2013 -> 10.10.0.30:80
+02/03-12:22:15.156739  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1228 -> 10.10.0.30:80
+02/03-12:22:16.156882  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1229 -> 10.10.0.30:80
+02/03-12:22:17.157005  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1230 -> 10.10.0.30:80
+02/03-12:22:18.157119  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1231 -> 10.10.0.30:80
+02/03-12:22:19.157636  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:1232 -> 10.10.0.30:80
+02/03-12:26:43.245090  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2761 -> 10.10.0.30:80
+02/03-12:26:44.244876  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2762 -> 10.10.0.30:80
+02/03-12:26:45.245004  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2763 -> 10.10.0.30:80
+02/03-12:26:46.245108  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2764 -> 10.10.0.30:80
+02/03-12:26:47.245274  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 10.10.0.20:2765 -> 10.10.0.30:80

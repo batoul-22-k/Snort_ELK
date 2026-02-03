@@ -1,0 +1,100 @@
+#version: "3.8"
+
+services:
+  snort-ids:
+    build: ./snort
+    container_name: snort-ids
+    network_mode: "service:target"
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    privileged: true
+    volumes:
+      - ./logs/snort:/var/log/snort
+      - ./snort/snort.conf:/etc/snort/snort.conf:ro
+      - ./snort/classification.config:/etc/snort/classification.config:ro
+      - ./snort/reference.config:/etc/snort/reference.config:ro
+      - ./snort/preproc_rules:/etc/snort/preproc_rules:ro
+      - ./snort/rules:/etc/snort/rules:ro
+    environment:
+      - SNORT_INTERFACE=eth0
+    command: ["-i","eth0","-c","/etc/snort/snort.conf","-A","fast","-k","none","-q","-u","snort","-g","snort"]
+
+  attacker:
+    build: ./attacker
+    container_name: attacker
+    networks:
+      snortnet:
+        ipv4_address: 10.10.0.20
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    security_opt:
+      - seccomp=unconfined
+    volumes:
+      - ./attacks:/attacks:ro
+    tty: true
+
+  target:
+    build: ./target
+    container_name: target
+    networks:
+      snortnet:
+        ipv4_address: 10.10.0.30
+    ports:
+      - "8080:80"
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash-oss:7.10.2
+    container_name: logstash
+    user: root
+    networks:
+      monitornet:
+        ipv4_address: 10.10.1.20
+    volumes:
+      - ./logs/snort:/var/log/snort:ro
+      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+      - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+      - ./logstash/templates:/usr/share/logstash/templates:ro
+    depends_on:
+      - elasticsearch
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    networks:
+      monitornet:
+        ipv4_address: 10.10.1.30
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:7.10.2
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    networks:
+      monitornet:
+        ipv4_address: 10.10.1.40
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+
+networks:
+  snortnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/24
+  monitornet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.1.0/24
+
+volumes:
+  esdata:

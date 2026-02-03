@@ -1,0 +1,23 @@
+# LOCAL RULES FOR ACADEMIC LAB
+# SIDs 1000001-1000010 reserved for this project.
+
+# Nmap SYN scan (recon) - triggers on a burst of SYNs from one source.
+alert tcp $EXTERNAL_NET any -> $HOME_NET 1:65535 (msg:"LOCAL Nmap SYN scan"; flags:S; threshold:type both, track by_src, count 20, seconds 3; classtype:attempted-recon; sid:1000001; rev:1; priority:2;)
+
+# Nmap NSE HTTP probe (service enumeration).
+alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg:"LOCAL Nmap NSE HTTP probe"; flow:to_server,established; content:"Nmap Scripting Engine"; http_header; classtype:attempted-recon; sid:1000002; rev:1; priority:2;)
+
+# Possible SYN flood (DoS-style burst).
+alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg:"LOCAL Possible SYN flood"; flags:S; flow:stateless; threshold:type both, track by_src, count 200, seconds 1; classtype:attempted-dos; sid:1000003; rev:1; priority:1;)
+
+# Suspicious TCP flags (Xmas scan).
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"LOCAL TCP Xmas scan"; flags:FPU; classtype:attempted-recon; sid:1000004; rev:2; priority:2;)
+
+# Suspicious TCP flags (Null scan).
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"LOCAL TCP Null scan"; flags:0; classtype:attempted-recon; sid:1000005; rev:1; priority:2;)
+
+# Suspicious User-Agent (curl/wget/python-requests).
+alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg:"LOCAL Suspicious User-Agent"; flow:to_server,established; content:"User-Agent|3a|"; http_header; pcre:"/(curl|wget|python-requests)/i"; classtype:misc-activity; sid:1000006; rev:2; priority:3;)
+
+# HTTP login brute-force (repeated POSTs to /login).
+alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg:"LOCAL HTTP login brute-force"; flow:to_server,established; content:"POST"; http_method; content:"/login"; http_uri; threshold:type both, track by_src, count 5, seconds 60; classtype:misc-activity; sid:1000007; rev:1; priority:3;)
