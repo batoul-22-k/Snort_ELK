@@ -1,5 +1,6 @@
 #!/bin/sh
-TARGET=${1:-172.30.0.30}
+set -e
+TARGET=${1:-172.32.0.30}
 
 # SYN scan (fallback to connect scan if raw sockets are blocked)
 if ! nmap -sS -Pn -p 1-1000 "$TARGET"; then

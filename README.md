@@ -3,12 +3,12 @@
 This lab provides a reproducible Snort 2 IDS environment with attacker, target, and ELK visualization.
 
 ## Topology (ASCII)
-[attacker 172.30.0.20] ---> [target 172.30.0.30]
+[attacker 172.32.0.20] ---> [target 172.32.0.30]
                          ^
                          |
                   sniffed by [snort-ids]
 
-Logs: snort-ids -> shared volume -> logstash -> elasticsearch -> kibana (172.30.1.0/24)
+Logs: snort-ids -> shared volume -> logstash -> elasticsearch -> kibana (172.33.0.0/24)
 
 ## Traffic Flow
 1. Attacker sends traffic to target on `snortnet`.
@@ -33,7 +33,7 @@ Download the community rules and place them into `snort/rules/community.rules` o
 ## Alert Commands (copy/paste)
 Network scanning
 1. SYN scan (fallback to connect scan if raw sockets are blocked):
-`docker compose exec attacker sh /attacks/nmap_scan.sh 172.30.0.30`
+`docker compose exec attacker sh /attacks/nmap_scan.sh 172.32.0.30`
 Expected alerts
 - SID 1000001: LOCAL Nmap SYN scan
 - SID 1000002: LOCAL Nmap NSE HTTP probe
@@ -53,21 +53,21 @@ Expected alerts
 
 Suspicious User-Agent
 1. Curl:
-`docker compose exec attacker sh -c "curl -A curl -s http://172.30.0.30/ > /dev/null"`
+`docker compose exec attacker sh -c "curl -A curl -s http://172.32.0.30/ > /dev/null"`
 2. Wget:
-`docker compose exec attacker sh -c "wget -qO- http://172.30.0.30/ > /dev/null"`
+`docker compose exec attacker sh -c "wget -qO- http://172.32.0.30/ > /dev/null"`
 Expected alert
 - SID 1000006: LOCAL Suspicious User-Agent
 
 HTTP login brute-force (lab simulation)
 1. Five POSTs to /login:
-`docker compose exec attacker sh -c "for i in $(seq 1 5); do curl -s -o /dev/null -X POST http://172.30.0.30/login; done"`
+`docker compose exec attacker sh -c "for i in $(seq 1 5); do curl -s -o /dev/null -X POST http://172.32.0.30/login; done"`
 Expected alert
 - SID 1000007: LOCAL HTTP login brute-force
 
 ## Run All Attacks (one command)
 From the host:
-`docker compose exec attacker sh /attacks/run_all.sh 172.30.0.30`
+`docker compose exec attacker sh /attacks/run_all.sh 172.32.0.30`
 
 ## Verify Alerts (CLI)
 1. Confirm Snort wrote alerts:

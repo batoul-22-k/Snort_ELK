@@ -25,7 +25,7 @@ services:
     container_name: attacker
     networks:
       snortnet:
-        ipv4_address: 172.30.0.20
+        ipv4_address: 172.32.0.20
     cap_add:
       - NET_ADMIN
       - NET_RAW
@@ -40,7 +40,7 @@ services:
     container_name: target
     networks:
       snortnet:
-        ipv4_address: 172.30.0.30
+        ipv4_address: 172.32.0.30
     ports:
       - "8080:80"
 
@@ -50,7 +50,7 @@ services:
     user: root
     networks:
       monitornet:
-        ipv4_address: 172.30.1.20
+        ipv4_address: 172.33.0.20
     volumes:
       - ./logs/snort:/var/log/snort:ro
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
@@ -67,7 +67,7 @@ services:
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
     networks:
       monitornet:
-        ipv4_address: 172.30.1.30
+        ipv4_address: 172.33.0.30
     volumes:
       - esdata:/usr/share/elasticsearch/data
 
@@ -78,7 +78,7 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     networks:
       monitornet:
-        ipv4_address: 172.30.1.40
+        ipv4_address: 172.33.0.40
     ports:
       - "5601:5601"
     depends_on:
@@ -89,12 +89,12 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.30.0.0/24
+        - subnet: 172.32.0.0/24
   monitornet:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.30.1.0/24
+        - subnet: 172.33.0.0/24
 
 volumes:
   esdata:

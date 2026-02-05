@@ -259,3 +259,244 @@
 02/03-12:58:48.428219  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36922 -> 10.10.0.30:80
 02/03-12:58:48.432535  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36932 -> 10.10.0.30:80
 02/03-12:58:48.432535  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 10.10.0.20:36932 -> 10.10.0.30:80
+02/03-21:06:27.257032  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:41544 -> 172.32.0.30:80
+02/03-21:06:27.667901  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:44320 -> 172.32.0.30:135
+02/03-21:06:34.587282  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56184 -> 172.32.0.30:80
+02/03-21:06:34.587372  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56196 -> 172.32.0.30:80
+02/03-21:06:34.587395  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56204 -> 172.32.0.30:80
+02/03-21:06:34.592441  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56208 -> 172.32.0.30:80
+02/03-21:06:34.594106  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56220 -> 172.32.0.30:80
+02/03-21:06:34.594191  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56230 -> 172.32.0.30:80
+02/03-21:06:37.912859  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2107 -> 172.32.0.30:80
+02/03-21:06:41.318482  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1547 -> 172.32.0.30:80
+02/03-21:06:42.319103  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1548 -> 172.32.0.30:80
+02/03-21:06:43.319430  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1549 -> 172.32.0.30:80
+02/03-21:06:44.319668  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1550 -> 172.32.0.30:80
+02/03-21:06:45.320243  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1551 -> 172.32.0.30:80
+02/03-21:06:53.622077  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53130 -> 172.32.0.30:80
+02/03-21:06:53.675768  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53142 -> 172.32.0.30:80
+02/03-21:06:56.703709  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53146 -> 172.32.0.30:80
+02/03-21:06:56.737172  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53150 -> 172.32.0.30:80
+02/03-21:06:56.748399  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53152 -> 172.32.0.30:80
+02/03-21:06:56.758596  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53166 -> 172.32.0.30:80
+02/03-21:06:56.770764  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53178 -> 172.32.0.30:80
+02/03-21:06:56.770764  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:53178 -> 172.32.0.30:80
+02/03-21:08:51.692192  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:43668 -> 172.32.0.30:80
+02/03-21:08:51.938205  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:50668 -> 172.32.0.30:22
+02/03-21:08:58.539206  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:32988 -> 172.32.0.30:80
+02/03-21:08:58.539362  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:32992 -> 172.32.0.30:80
+02/03-21:08:58.539690  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33000 -> 172.32.0.30:80
+02/03-21:08:58.550795  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33002 -> 172.32.0.30:80
+02/03-21:08:58.552842  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33016 -> 172.32.0.30:80
+02/03-21:08:58.553041  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33018 -> 172.32.0.30:80
+02/03-21:09:01.902283  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1409 -> 172.32.0.30:80
+02/03-21:09:05.286231  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1985 -> 172.32.0.30:80
+02/03-21:09:06.286692  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1986 -> 172.32.0.30:80
+02/03-21:09:07.287258  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1987 -> 172.32.0.30:80
+02/03-21:09:08.287417  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1988 -> 172.32.0.30:80
+02/03-21:09:09.287922  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1989 -> 172.32.0.30:80
+02/03-21:09:18.414893  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44682 -> 172.32.0.30:80
+02/03-21:09:18.421365  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44686 -> 172.32.0.30:80
+02/03-21:09:20.638342  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44690 -> 172.32.0.30:80
+02/03-21:09:20.653678  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44704 -> 172.32.0.30:80
+02/03-21:09:20.665487  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44720 -> 172.32.0.30:80
+02/03-21:09:20.680059  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44736 -> 172.32.0.30:80
+02/03-21:09:20.689776  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44740 -> 172.32.0.30:80
+02/03-21:09:20.689776  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:44740 -> 172.32.0.30:80
+02/04-12:41:02.580880  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:57930 -> 172.32.0.30:80
+02/04-12:41:03.277261  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:34617 -> 172.32.0.30:995
+02/04-12:41:10.956971  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56414 -> 172.32.0.30:80
+02/04-12:41:10.957203  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56424 -> 172.32.0.30:80
+02/04-12:41:10.957243  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56430 -> 172.32.0.30:80
+02/04-12:41:11.167157  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56438 -> 172.32.0.30:80
+02/04-12:41:11.179387  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56446 -> 172.32.0.30:80
+02/04-12:41:11.179462  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:56450 -> 172.32.0.30:80
+02/04-12:41:14.770477  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1125 -> 172.32.0.30:80
+02/04-12:41:18.282414  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2424 -> 172.32.0.30:80
+02/04-12:41:19.282892  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2425 -> 172.32.0.30:80
+02/04-12:41:20.313933  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2426 -> 172.32.0.30:80
+02/04-12:41:21.315518  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2427 -> 172.32.0.30:80
+02/04-12:41:22.315977  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2428 -> 172.32.0.30:80
+02/04-12:41:31.518440  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45100 -> 172.32.0.30:80
+02/04-12:41:31.582888  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45110 -> 172.32.0.30:80
+02/04-12:41:34.720197  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45116 -> 172.32.0.30:80
+02/04-12:41:34.830653  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45120 -> 172.32.0.30:80
+02/04-12:41:34.867978  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45122 -> 172.32.0.30:80
+02/04-12:41:34.922394  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45132 -> 172.32.0.30:80
+02/04-12:41:35.006517  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45136 -> 172.32.0.30:80
+02/04-12:41:35.006517  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45136 -> 172.32.0.30:80
+02/04-12:43:12.361416  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:33638 -> 172.32.0.30:80
+02/04-12:43:12.618391  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:37024 -> 172.32.0.30:25
+02/04-12:43:19.572924  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33920 -> 172.32.0.30:80
+02/04-12:43:19.573996  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33926 -> 172.32.0.30:80
+02/04-12:43:19.574582  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33938 -> 172.32.0.30:80
+02/04-12:43:19.618350  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33944 -> 172.32.0.30:80
+02/04-12:43:19.624790  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33958 -> 172.32.0.30:80
+02/04-12:43:19.626748  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:33970 -> 172.32.0.30:80
+02/04-12:43:23.047864  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1938 -> 172.32.0.30:80
+02/04-12:43:26.456658  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2169 -> 172.32.0.30:80
+02/04-12:43:27.457246  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2170 -> 172.32.0.30:80
+02/04-12:43:28.457629  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2171 -> 172.32.0.30:80
+02/04-12:43:29.457921  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2172 -> 172.32.0.30:80
+02/04-12:43:30.458254  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2173 -> 172.32.0.30:80
+02/04-12:43:39.587515  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55748 -> 172.32.0.30:80
+02/04-12:43:39.603523  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55760 -> 172.32.0.30:80
+02/04-12:43:42.627822  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55766 -> 172.32.0.30:80
+02/04-12:43:42.648409  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55770 -> 172.32.0.30:80
+02/04-12:43:42.666862  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55786 -> 172.32.0.30:80
+02/04-12:43:42.694884  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55796 -> 172.32.0.30:80
+02/04-12:43:42.722448  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55812 -> 172.32.0.30:80
+02/04-12:43:42.722448  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55812 -> 172.32.0.30:80
+02/04-12:46:58.517514  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45042 -> 172.32.0.30:80
+02/04-12:46:58.724502  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48699 -> 172.32.0.30:80
+02/04-12:47:05.604837  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45062 -> 172.32.0.30:80
+02/04-12:47:05.605823  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45076 -> 172.32.0.30:80
+02/04-12:47:05.606094  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45082 -> 172.32.0.30:80
+02/04-12:47:05.618359  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45094 -> 172.32.0.30:80
+02/04-12:47:05.621770  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45100 -> 172.32.0.30:80
+02/04-12:47:05.624473  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:45106 -> 172.32.0.30:80
+02/04-12:47:08.947346  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1778 -> 172.32.0.30:80
+02/04-12:47:12.371786  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2630 -> 172.32.0.30:80
+02/04-12:47:13.372306  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2631 -> 172.32.0.30:80
+02/04-12:47:14.372576  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2632 -> 172.32.0.30:80
+02/04-12:47:15.372874  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2633 -> 172.32.0.30:80
+02/04-12:47:16.373614  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2634 -> 172.32.0.30:80
+02/04-12:47:25.508497  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55330 -> 172.32.0.30:80
+02/04-12:47:25.521071  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55340 -> 172.32.0.30:80
+02/04-12:47:28.581820  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59332 -> 172.32.0.30:80
+02/04-12:47:28.603630  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59348 -> 172.32.0.30:80
+02/04-12:47:28.620862  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59356 -> 172.32.0.30:80
+02/04-12:47:28.638821  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59370 -> 172.32.0.30:80
+02/04-12:47:28.652280  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59378 -> 172.32.0.30:80
+02/04-12:47:28.652280  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:59378 -> 172.32.0.30:80
+02/04-13:22:50.091956  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48502 -> 172.32.0.30:80
+02/04-13:22:50.389822  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:49268 -> 172.32.0.30:23
+02/04-13:22:57.461983  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48526 -> 172.32.0.30:80
+02/04-13:22:57.467061  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48528 -> 172.32.0.30:80
+02/04-13:22:57.468797  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48534 -> 172.32.0.30:80
+02/04-13:22:57.488293  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48544 -> 172.32.0.30:80
+02/04-13:22:57.493974  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48556 -> 172.32.0.30:80
+02/04-13:22:57.503322  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:48572 -> 172.32.0.30:80
+02/04-13:23:00.923357  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1187 -> 172.32.0.30:80
+02/04-13:23:04.457099  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2868 -> 172.32.0.30:80
+02/04-13:23:05.457461  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2869 -> 172.32.0.30:80
+02/04-13:23:06.457816  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2870 -> 172.32.0.30:80
+02/04-13:23:07.466006  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2871 -> 172.32.0.30:80
+02/04-13:23:08.466333  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2872 -> 172.32.0.30:80
+02/04-13:23:17.660720  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55864 -> 172.32.0.30:80
+02/04-13:23:17.699135  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:55870 -> 172.32.0.30:80
+02/04-13:23:20.754121  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34528 -> 172.32.0.30:80
+02/04-13:23:20.774289  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34536 -> 172.32.0.30:80
+02/04-13:23:20.788321  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34540 -> 172.32.0.30:80
+02/04-13:23:20.800593  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34548 -> 172.32.0.30:80
+02/04-13:23:20.814324  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34550 -> 172.32.0.30:80
+02/04-13:23:20.814324  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34550 -> 172.32.0.30:80
+02/04-21:52:37.198912  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46992 -> 172.32.0.30:80
+02/04-21:52:37.752422  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:52981 -> 172.32.0.30:25
+02/04-21:52:45.771523  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58406 -> 172.32.0.30:80
+02/04-21:52:45.772106  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58420 -> 172.32.0.30:80
+02/04-21:52:45.773015  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58428 -> 172.32.0.30:80
+02/04-21:52:45.781466  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58444 -> 172.32.0.30:80
+02/04-21:52:45.788449  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58458 -> 172.32.0.30:80
+02/04-21:52:45.789457  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58468 -> 172.32.0.30:80
+02/04-21:52:49.302225  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2836 -> 172.32.0.30:80
+02/04-21:52:52.783388  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2449 -> 172.32.0.30:80
+02/04-21:52:53.784112  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2450 -> 172.32.0.30:80
+02/04-21:52:54.791226  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2451 -> 172.32.0.30:80
+02/04-21:52:55.791602  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2452 -> 172.32.0.30:80
+02/04-21:52:56.791870  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2453 -> 172.32.0.30:80
+02/04-21:53:06.028455  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46594 -> 172.32.0.30:80
+02/04-21:53:06.051855  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46606 -> 172.32.0.30:80
+02/04-21:53:09.080131  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46616 -> 172.32.0.30:80
+02/04-21:53:09.100383  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46628 -> 172.32.0.30:80
+02/04-21:53:09.142440  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46640 -> 172.32.0.30:80
+02/04-21:53:09.169271  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46648 -> 172.32.0.30:80
+02/04-21:53:09.201294  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46658 -> 172.32.0.30:80
+02/04-21:53:09.201294  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46658 -> 172.32.0.30:80
+02/04-21:57:53.640205  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:58470 -> 172.32.0.30:80
+02/04-21:57:54.665436  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47318 -> 172.32.0.30:587
+02/04-21:58:01.999870  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58494 -> 172.32.0.30:80
+02/04-21:58:02.000151  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58496 -> 172.32.0.30:80
+02/04-21:58:02.000514  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58498 -> 172.32.0.30:80
+02/04-21:58:02.010224  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58512 -> 172.32.0.30:80
+02/04-21:58:02.012761  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58518 -> 172.32.0.30:80
+02/04-21:58:02.063195  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:58530 -> 172.32.0.30:80
+02/04-21:58:05.443451  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2003 -> 172.32.0.30:80
+02/04-21:58:08.900448  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2251 -> 172.32.0.30:80
+02/04-21:58:09.900962  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2252 -> 172.32.0.30:80
+02/04-21:58:10.901607  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2253 -> 172.32.0.30:80
+02/04-21:58:11.901806  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2254 -> 172.32.0.30:80
+02/04-21:58:12.902082  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2255 -> 172.32.0.30:80
+02/04-21:58:13.444226  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:33960 -> 172.32.0.30:80
+02/04-21:58:13.618951  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:51867 -> 172.32.0.30:139
+02/04-21:58:20.346451  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47478 -> 172.32.0.30:80
+02/04-21:58:20.346985  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47488 -> 172.32.0.30:80
+02/04-21:58:20.347101  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47492 -> 172.32.0.30:80
+02/04-21:58:20.351470  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47514 -> 172.32.0.30:80
+02/04-21:58:20.352893  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47518 -> 172.32.0.30:80
+02/04-21:58:20.352977  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47520 -> 172.32.0.30:80
+02/04-21:58:21.730184  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:47550 -> 172.32.0.30:80
+02/04-21:58:21.739101  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:47560 -> 172.32.0.30:80
+02/04-21:58:23.681251  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2475 -> 172.32.0.30:80
+02/04-21:58:24.759190  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46680 -> 172.32.0.30:80
+02/04-21:58:24.781342  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46688 -> 172.32.0.30:80
+02/04-21:58:24.800894  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46692 -> 172.32.0.30:80
+02/04-21:58:24.810809  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46694 -> 172.32.0.30:80
+02/04-21:58:24.825544  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46702 -> 172.32.0.30:80
+02/04-21:58:24.825544  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:46702 -> 172.32.0.30:80
+02/04-21:58:27.119688  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2147 -> 172.32.0.30:80
+02/04-21:58:28.119867  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2148 -> 172.32.0.30:80
+02/04-21:58:29.120300  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2149 -> 172.32.0.30:80
+02/04-21:58:30.104538  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2150 -> 172.32.0.30:80
+02/04-21:58:31.104799  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2151 -> 172.32.0.30:80
+02/04-21:58:40.234872  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40056 -> 172.32.0.30:80
+02/04-21:58:40.243654  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40066 -> 172.32.0.30:80
+02/04-21:58:43.368078  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40078 -> 172.32.0.30:80
+02/04-21:58:43.386922  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40080 -> 172.32.0.30:80
+02/04-21:58:43.407407  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40088 -> 172.32.0.30:80
+02/04-21:58:43.427897  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40096 -> 172.32.0.30:80
+02/04-21:58:43.450308  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:40100 -> 172.32.0.30:80
+02/05-05:59:25.430068  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:34812 -> 172.32.0.30:80
+02/05-05:59:25.759134  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:50263 -> 172.32.0.30:256
+02/05-05:59:32.698675  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47400 -> 172.32.0.30:80
+02/05-05:59:32.699500  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47408 -> 172.32.0.30:80
+02/05-05:59:32.699619  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47412 -> 172.32.0.30:80
+02/05-05:59:32.710398  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47432 -> 172.32.0.30:80
+02/05-05:59:32.712622  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47442 -> 172.32.0.30:80
+02/05-05:59:32.712838  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:47456 -> 172.32.0.30:80
+02/05-05:59:36.252893  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1785 -> 172.32.0.30:80
+02/05-05:59:39.742178  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2507 -> 172.32.0.30:80
+02/05-05:59:40.742592  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2508 -> 172.32.0.30:80
+02/05-05:59:41.742889  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2509 -> 172.32.0.30:80
+02/05-05:59:42.743374  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2510 -> 172.32.0.30:80
+02/05-05:59:43.756891  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2511 -> 172.32.0.30:80
+02/05-05:59:52.864380  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48832 -> 172.32.0.30:80
+02/05-05:59:52.896029  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48848 -> 172.32.0.30:80
+02/05-05:59:55.938631  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48864 -> 172.32.0.30:80
+02/05-05:59:56.000509  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48870 -> 172.32.0.30:80
+02/05-05:59:56.029802  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48880 -> 172.32.0.30:80
+02/05-05:59:56.069063  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48892 -> 172.32.0.30:80
+02/05-05:59:56.109032  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48900 -> 172.32.0.30:80
+02/05-05:59:56.109032  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:48900 -> 172.32.0.30:80
+02/05-06:43:55.811591  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:42052 -> 172.32.0.30:80
+02/05-06:43:56.476305  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:52748 -> 172.32.0.30:143
+02/05-06:44:03.640118  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42060 -> 172.32.0.30:80
+02/05-06:44:03.641814  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42064 -> 172.32.0.30:80
+02/05-06:44:03.642141  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42076 -> 172.32.0.30:80
+02/05-06:44:03.654237  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42094 -> 172.32.0.30:80
+02/05-06:44:03.661466  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42102 -> 172.32.0.30:80
+02/05-06:44:03.665360  [**] [1:1000002:1] LOCAL Nmap NSE HTTP probe [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:42110 -> 172.32.0.30:80
+02/05-06:44:07.109741  [**] [1:1000001:1] LOCAL Nmap SYN scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2902 -> 172.32.0.30:80
+02/05-06:44:10.395979  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1996 -> 172.32.0.30:80
+02/05-06:44:11.396358  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1997 -> 172.32.0.30:80
+02/05-06:44:12.396643  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1998 -> 172.32.0.30:80
+02/05-06:44:13.396802  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:1999 -> 172.32.0.30:80
+02/05-06:44:14.397040  [**] [1:1000004:2] LOCAL TCP Xmas scan [**] [Classification: Attempted Reconnaissance] [Priority: 2] {PROTO:006} 172.32.0.20:2000 -> 172.32.0.30:80
+02/05-06:44:23.554723  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45148 -> 172.32.0.30:80
+02/05-06:44:23.572595  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:45152 -> 172.32.0.30:80
+02/05-06:44:26.614922  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37864 -> 172.32.0.30:80
+02/05-06:44:26.644730  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37870 -> 172.32.0.30:80
+02/05-06:44:26.674656  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37884 -> 172.32.0.30:80
+02/05-06:44:26.719798  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37890 -> 172.32.0.30:80
+02/05-06:44:26.745547  [**] [1:1000006:2] LOCAL Suspicious User-Agent [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37904 -> 172.32.0.30:80
+02/05-06:44:26.745547  [**] [1:1000007:1] LOCAL HTTP login brute-force [**] [Classification: Misc activity] [Priority: 3] {PROTO:006} 172.32.0.20:37904 -> 172.32.0.30:80

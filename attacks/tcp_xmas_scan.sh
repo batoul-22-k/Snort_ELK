@@ -1,5 +1,5 @@
 #!/bin/sh
-TARGET=${1:-10.10.0.30}
+TARGET=${1:-172.32.0.30}
 
 # Xmas scan flags (short burst)
 hping3 -c 5 -F -P -U -p 80 "$TARGET"

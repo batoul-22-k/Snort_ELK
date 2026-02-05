@@ -1,4 +1,4 @@
-# LOCAL RULES FOR ACADEMIC LAB
+
 # SIDs 1000001-1000010 reserved for this project.
 
 # Nmap SYN scan (recon) - triggers on a burst of SYNs from one source.
