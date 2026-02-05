@@ -2,6 +2,8 @@
 
 This lab provides a reproducible Snort 2 IDS environment with attacker, target, and ELK visualization.
 
+**Done by:** Batoul Kanaan & Fatima Faour
+
 ## Topology (ASCII)
 [attacker 172.32.0.20] ---> [target 172.32.0.30]
                          ^
@@ -18,8 +20,7 @@ Logs: snort-ids -> shared volume -> logstash -> elasticsearch -> kibana (172.33.
 5. Kibana visualizes the alerts.
 
 ## Quick Start
-1. `docker compose up -d --build`
-2. `docker compose exec attacker bash`
+`docker compose up -d --build`
 
 ## Community Rules
 Download the community rules and place them into `snort/rules/community.rules` or mount your own rules directory.
